@@ -5,12 +5,12 @@ function sayHello () {
     .getElementById("content")
     .innerHTML = message
 
-    if (name === "Matias") {
+    if (name === "Marcia") {
         var title = 
         document
         .querySelector("#title")
         .textContent;
-        title += "... Hey vos no sos Matias!";
+        title += "... Hey termina mi castillo del lago!";
         document
         .querySelector("#content")
         .textContent = title;
