@@ -3,5 +3,5 @@ function sayHello () {
     var message = "Termina mi dibujo " + name + "!"
     document
     .getElementById("content")
-    .textContent = message
+    .innerHTML = message
 }

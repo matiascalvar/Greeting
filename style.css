@@ -24,3 +24,7 @@ button:hover {
     margin: auto;
     line-height: 450px;
 }
+
+input {
+    width: 500px;
+}
