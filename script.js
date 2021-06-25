@@ -12,7 +12,7 @@ function sayHello () {
         .textContent;
         title += "... Hey vos no sos Matias!";
         document
-        .querySelector("#title")
+        .querySelector("#content")
         .textContent = title;
     }
 }
