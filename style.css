@@ -1,0 +1,26 @@
+p, button, input, #content{
+    font-size: 50px;
+    text-align: center;
+}
+
+body {
+    background-color: #2a9d8f;
+}
+
+button, input {
+    border-radius: 15px;
+}
+button:hover {
+    background-color: #264653;
+    color: white;
+}
+
+#content {
+    background-color: #264653;
+    font-size: 5em;
+    color: white;
+    width:auto;
+    height: 500px;
+    margin: auto;
+    line-height: 450px;
+}
