@@ -4,4 +4,15 @@ function sayHello () {
     document
     .getElementById("content")
     .innerHTML = message
+
+    if (name === "Matias") {
+        var title = 
+        document
+        .querySelector("#title")
+        .textContent;
+        title += "... Hey vos no sos Matias!";
+        document
+        .querySelector("#title")
+        .textContent = title;
+    }
 }
