@@ -1,6 +1,6 @@
 function sayHello () {
     var name = document.getElementById("name").value;
-    var message = "Termina mi dibujo " + name + "!"
+    var message = "Un gusto conocerte " + name + "!"
     document
     .getElementById("content")
     .innerHTML = message
